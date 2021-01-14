@@ -1,4 +1,4 @@
-# CUHK - CSCI4160 Fall 19 Assignment 1b
+# CUHK - CSCI4160 Spring 2021 Assignment 2b
 
 ## GPU Programming (CUDA)
 
