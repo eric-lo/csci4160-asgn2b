@@ -1,5 +1,5 @@
 INC = -I/usr/local/include -I/usr/local/cuda/include/ -I/usr/share/CUnit/include/
-LIB = -L/user/local/lib -L/usr/local/cuda/lib64/
+LIB = -L/usr/local/lib -L/usr/local/cuda/lib64/
 NVCC = /usr/local/cuda/bin/nvcc
 LIBS = -lcudart -lcublas /usr/share/CUnit/lib/libcunit.a
 
