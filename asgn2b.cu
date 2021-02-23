@@ -12,7 +12,7 @@
 
 
 
-extern "C" int asgn1b(Point * points, Point ** pPermissiblePoints, int number, int dim, int gpuid)
+extern "C" int asgn2b(Point * points, Point ** pPermissiblePoints, int number, int dim, int gpuid)
 {
     // points -- input data
     // pPermissiblePoints -- your computed answer

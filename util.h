@@ -22,7 +22,7 @@ typedef struct point{
 
 
 
-//int asgn1b(Point *points, Point **resPoints, int number, int dim);
+//int asgn2b(Point *points, Point **resPoints, int number, int dim);
 
 
 void printPoint(Point a,int dim);

@@ -112,7 +112,7 @@ int testCase(void)
 
 	gettimeofday(&t_start, NULL);
 
-	permissiblePointNum = asgn1b(points, &permissiblePoints, test.number, test.dim, gpuid);
+	permissiblePointNum = asgn2b(points, &permissiblePoints, test.number, test.dim, gpuid);
 
 	gettimeofday(&t_end, NULL);
 	double t_ep = (t_end.tv_sec - t_start.tv_sec) * 1000000.0 + t_end.tv_usec - t_start.tv_usec;
