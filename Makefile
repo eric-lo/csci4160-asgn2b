@@ -1,6 +1,6 @@
-INC = -I/usr/local/include -I/usr/local/cuda/include/ -I/usr/share/CUnit/include/
-LIB = -L/usr/local/lib -L/usr/local/cuda/lib64/
-NVCC = /usr/local/cuda/bin/nvcc
+INC = -I/usr/local/include -I/usr/local/cuda-11.2/include/ -I/usr/share/CUnit/include/
+LIB = -L/usr/local/lib -L/usr/local/cuda-11.2/lib64/
+NVCC = /usr/local/cuda-11.2/bin/nvcc
 LIBS = -lcudart -lcublas /usr/share/CUnit/lib/libcunit.a
 
 all: runtest.c util.c asgn2b.o
