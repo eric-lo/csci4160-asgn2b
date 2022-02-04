@@ -12,7 +12,7 @@
 
 
 
-extern "C" int asgn2b(Point * points, Point ** pPermissiblePoints, int number, int dim, int gpuid)
+extern "C" int asgn1b(Point * points, Point ** pPermissiblePoints, int number, int dim, int gpuid)
 {
     // points -- input data
     // pPermissiblePoints -- your computed answer
@@ -24,10 +24,6 @@ extern "C" int asgn2b(Point * points, Point ** pPermissiblePoints, int number, i
 	Point * permissiblePoints = NULL;
 
 	cudaSetDevice(gpuid);
-
-	//the following for-loop iterates the first 20 points that will be inputted by runtest.c
-    //	for(int i = -1; i < 20; i++)
-    //		printPoint(points[i], dim);
 
 	/**********************************************************************************
 	 * Work here
